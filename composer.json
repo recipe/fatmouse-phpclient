@@ -1,5 +1,5 @@
 {
-    "name": "Scalr/fatmouse-phpclient",
+    "name": "scalr/fatmouse-phpclient",
     "version": "0.0.1",
     "type": "library",
     "description": "Fatmouse PHP Client",
