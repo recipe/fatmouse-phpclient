@@ -1,0 +1,29 @@
+{
+    "name": "Scalr/fatmouse-phpclient",
+    "version": "0.0.1",
+    "type": "library",
+    "description": "Fatmouse PHP Client",
+    "license": "ASL v2.0",
+    "authors": [
+        {
+            "name": "Nick Demyanchuk",
+            "email": "spike@scalr.com"
+        }, 
+        {
+            "name": "Marat Komarov",
+            "email": "marat@scalr.com"
+        }
+    ],
+    "require": {
+        "videlalvaro/php-amqplib": "2.6.0"
+    },
+    "require-dev": {
+        "behat/behat": "3.0.15"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fatmouse\\": "Fatmouse/"
+        }
+    },
+    "minimum-stability" : "stable"
+}
